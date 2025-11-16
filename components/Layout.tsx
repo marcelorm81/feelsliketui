@@ -10,9 +10,9 @@ interface LayoutProps {
 
 const Layout: React.FC<LayoutProps> = ({ children, navigate }) => {
   return (
-    <div className="flex flex-col min-h-screen bg-black">
+    <div className="flex flex-col min-h-screen bg-black overflow-x-hidden">
       <Header navigate={navigate} />
-      <main className="flex-grow">
+      <main className="flex-grow overflow-x-hidden">
         {children}
       </main>
       <Footer />

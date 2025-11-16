@@ -9,9 +9,9 @@ export interface Project {
 
 const googleProject = {
   client: 'Google',
-  title: 'Digital Brand Identity',
+  title: 'Product innovation and real-time graphics for Pixel',
   year: 2024,
-  description: 'Modern digital identity system for Google, featuring clean lines and minimalist aesthetic.',
+  description: 'Building next-gen visual systems and interactive product demos for Pixel — fast, responsive, and built with a focus on clarity and motion precision. Terminal mode approved.\n\n[ EXECUTE_PIXEL_BUILD ]',
   chafa: [
     '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&',
     '&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&$$$&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&',
@@ -184,9 +184,9 @@ const googleProject = {
 
 const chProject = {
   client: 'CH',
-  title: 'Brand Visual System',
+  title: 'End-to-end design for a digital flagship',
   year: 2024,
-  description: 'Contemporary visual identity system with bold typography and dynamic compositions.',
+  description: 'E-commerce\n\nA complete digital flagship experience — from interface foundations to product storytelling. Crafted with editorial clarity and modern e-commerce intelligence.\n\n[ EXECUTE_FLAGSHIP_RUN ]',
   chafa: [
 '$$X$$X$$XXXXXXXX&&&&&&&&&&XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
     'X$XXXXXXXXXXXXXX&&&&&&&&&&XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
@@ -359,9 +359,9 @@ const chProject = {
 
 const monclerProject = {
   client: 'Moncler',
-  title: 'Luxury Brand Campaign',
+  title: 'Inspiration × Commerce Platform',
   year: 2024,
-  description: 'High-end fashion brand campaign with sophisticated visual language and premium aesthetics.',
+  description: 'Product Design App\n\nA hybrid platform blending atmospheric inspiration with performance-driven commerce. Designed for depth, motion, and a sense of alpine clarity.\n\n[ EXECUTE_MOUNTAIN_CORE ]',
   chafa: [
 ';;;+;+++;+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++',
     ';+;;;;+++;++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++',
@@ -534,9 +534,9 @@ const monclerProject = {
 
 const arcadeProject = {
   client: 'Arcade',
-  title: 'Gaming Platform Design',
+  title: 'A futuristic marketplace for dreamers and makers',
   year: 2024,
-  description: 'Vibrant gaming platform interface with retro-inspired design elements and modern functionality.',
+  description: 'Brand Sprint · Platform Design AI\n\nA creative playground for creators and innovators — merging AI workflows, bold identity, and a fluid multi-category marketplace experience.\n\n[ EXECUTE_ARCADE_ENGINE ]',
   chafa: [
 ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;+xXxx+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:',
     ';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;+XXXX+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;:',
@@ -709,9 +709,9 @@ const arcadeProject = {
 
 const valentinoProject = {
   client: 'Valentino',
-  title: 'Runway Showcase',
+  title: 'The House, Recut for a New Era',
   year: 2024,
-  description: 'Digital campaign visuals for the Autumn/Winter collection, focusing on stark contrasts and brand identity.',
+  description: 'E-commerce\n\nRefined digital craftsmanship for Valentino\'s e-commerce evolution. Editorial, cinematic, and built with a modern rhythm that bridges heritage and futurism.\n\n[ EXECUTE_VALENTINO_MODE ]',
   chafa: [
 'xxxxxxxxxxxxx;::::::.:.:.::;:::+::::. .  .....:::;;;::...::;::;;:::::::;:;;+;;;+;+;;:+;;:;;;::.;::;::::::.::..::::::..... .....::..:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;',
     'xxxxxxxxxxxxx;.::::;:::::.:;.::;:::.::.....:..:.:::::.:::;;;:::::::::::;::::.::::::;:::::::::..:::::::::::::..:..:.:.:..:...:..::..:;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;',
@@ -884,9 +884,9 @@ const valentinoProject = {
 
 const lvmhProject = {
   client: 'LVMH',
-  title: 'Brand Portfolio Animation',
+  title: 'Immersive digital showrooms',
   year: 2023,
-  description: 'A series of animated logotypes for LVMH\'s digital brand portfolio, rendered in a unique terminal aesthetic.',
+  description: 'Platform Design\n\nA modular showroom platform designed for immersion and brand expression — blending motion, craft, and luxury presentation across categories.\n\n[ EXECUTE_SHOWROOM_SYSTEM ]',
   chafa: [
     'XXXXXXXxXXXXXXXXXXxXXXXxXXXXXXXXXXXXxXXXXXXxXXXxXXxXXxXXXxXxXXXXxXXXxXxXXxxXXxxXXxXXxXXxXXxxxxXXxXXxXxxXxXXxxxxxXXxXXxXXxXXxXXxxXXxxxxxxxxxxXxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
     'XXXXXXXXXXXXXXXXXXXXXXXXXxXXXXXXxXXXXXxxXxXXxxXxXXXXXXxxXxXXXxXxxXXxXXxxXXxxXXxxXxXxxXXxXxxXXxxXxxXxXXxxxxxXXXXxXxxxXxxXxxXXxxXXxxXXXxXXxXXxxXXxXXXxxXXxXxxxXxXxxxXXxxxxxxxxxxxxxxXx',
@@ -1058,10 +1058,10 @@ const lvmhProject = {
 };
 
 export const projects: Project[] = [
-  { ...googleProject, id: 'fls-001' },
-  { ...chProject, id: 'fls-002' },
-  { ...monclerProject, id: 'fls-003' },
   { ...arcadeProject, id: 'fls-004' },
   { ...valentinoProject, id: 'fls-005' },
   { ...lvmhProject, id: 'fls-006' },
+  { ...googleProject, id: 'fls-001' },
+  { ...chProject, id: 'fls-002' },
+  { ...monclerProject, id: 'fls-003' },
 ];

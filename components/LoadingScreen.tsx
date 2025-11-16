@@ -47,6 +47,8 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
     '$',
   ];
 
+  const [isFading, setIsFading] = useState(false);
+
   useEffect(() => {
     if (currentLine < directoryStructure.length) {
       const timer = setTimeout(() => {
@@ -56,16 +58,28 @@ const LoadingScreen: React.FC<LoadingScreenProps> = ({ onComplete }) => {
 
       return () => clearTimeout(timer);
     } else {
-      // Wait a bit before completing
+      // Wait a bit before starting fade out
       const timer = setTimeout(() => {
-        onComplete();
-      }, 300);
+        setIsFading(true);
+        // After fade animation completes, call onComplete
+        setTimeout(() => {
+          onComplete();
+        }, 500);
+      }, 500);
       return () => clearTimeout(timer);
     }
   }, [currentLine, onComplete]);
 
   return (
-    <div className="fixed inset-0 bg-black z-50 flex items-center justify-center font-mono">
+    <div 
+      className={`fixed inset-0 bg-black z-50 flex items-center justify-center font-mono transition-opacity duration-500 ${
+        isFading ? 'opacity-0' : 'opacity-100'
+      }`}
+      style={{
+        transform: isFading ? 'translateY(-100%)' : 'translateY(0)',
+        transition: 'opacity 0.5s ease-out, transform 0.5s ease-out'
+      }}
+    >
       <div className="w-full max-w-3xl p-4 sm:p-6">
         <pre className="text-[#00ff00] text-[10px] sm:text-xs md:text-sm leading-relaxed overflow-hidden">
           {displayedLines.map((line, index) => (
