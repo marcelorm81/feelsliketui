@@ -66,7 +66,7 @@ const Header: React.FC<HeaderProps> = ({ navigate }) => {
         <div className="max-w-7xl mx-auto">
           <div className="border border-[#00ff00] p-2 sm:p-4 flex flex-col sm:flex-row items-start justify-between gap-4 overflow-x-hidden">
             <div className="flex flex-col items-start w-full sm:w-auto" style={{ padding: 0 }}>
-              <pre className="text-[3px] leading-[3px] text-[#00ff00] text-left whitespace-pre" style={{ margin: 0, padding: 0, fontFamily: 'monospace' }}>
+              <pre className="text-[2px] leading-[2px] text-[#00ff00] text-left whitespace-pre" style={{ margin: 0, padding: 0, fontFamily: 'monospace' }}>
                 <code>{LOGO}</code>
               </pre>
               <pre className="text-[9px] leading-[10px] text-[#00ff00]/80 text-left whitespace-pre" style={{ margin: 0, padding: 0, paddingTop: '15px', fontFamily: 'monospace' }}>
@@ -77,7 +77,7 @@ const Header: React.FC<HeaderProps> = ({ navigate }) => {
             </div>
             <div className="w-full sm:w-auto flex justify-end overflow-hidden">
               <div className="symbol-3d-container">
-                <pre className="text-[3px] leading-[3px] text-[#00ff00] whitespace-pre font-mono symbol-3d" style={{ margin: 0, padding: 0, fontFamily: 'monospace', letterSpacing: '0', wordSpacing: '0', textAlign: 'left', display: 'block' }}>
+                <pre className="text-[2px] leading-[2px] text-[#00ff00] whitespace-pre font-mono symbol-3d" style={{ margin: 0, padding: 0, fontFamily: 'monospace', letterSpacing: '0', wordSpacing: '0', textAlign: 'left', display: 'block' }}>
                   <code style={{ fontFamily: 'monospace', whiteSpace: 'pre', display: 'block' }}>{SYMBOL}</code>
                 </pre>
               </div>
